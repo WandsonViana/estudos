@@ -12,7 +12,7 @@
 <header>
     <meta charset ="UTF-8">
 
-    <title>Aula Booleana php githut</title>
+    <title>Aula Booleana php github/title>
    <sytle>
 
   </style>
