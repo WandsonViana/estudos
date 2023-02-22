@@ -1,0 +1,35 @@
+<?php 
+      $_nome = "wandson";
+      $_tel = "698989565656";
+      $_fumante = true;
+
+      ?>
+<!doctype html>
+<html>
+<header>
+    <meta charset ="UTF-8">
+
+    <title>Aula if em uma unica linha sem if condicional php </title>
+   <sytle>
+
+  </style>
+</header>
+<body>
+
+<p>
+
+
+ <?php 
+    
+    $_idade =  17;
+    $_maioridade = ($_idade>= 18)? " Maior" : " Menor";
+    echo $_maioridade;
+  
+ ?>
+</P>
+</body>
+
+
+
+
+</html>

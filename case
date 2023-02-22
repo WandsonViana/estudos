@@ -1,0 +1,55 @@
+<?php 
+      $_nome = "wandson";
+      $_tel = "698989565656";
+      $_fumante = true;
+
+      ?>
+<!doctype html>
+<html>
+<header>
+    <meta charset ="UTF-8">
+
+    <title>Aula Booleana php </title>
+   <sytle>
+
+  </style>
+</header>
+<body>
+
+<p>
+ <?php  
+   $_dia = "sexta";
+
+
+    switch ($_dia) {
+
+        case 'segunda':
+        echo "Hoje e segunda feira!";
+        break;
+        case 'terca':
+        echo "Hoje e terca feira!";
+        break;
+        case 'quarta':
+        echo "Hoje e quarta feira!";
+        break;
+        case 'quinta':
+        echo "Hoje e quinta feira!";
+        break;
+        case 'sexta':
+        echo "Hoje e sexta feira!";
+        break;
+
+        default:
+        echo "Fim de semana!";
+        break;
+    }
+
+
+ ?>
+</P>
+</body>
+
+
+
+
+</html>
